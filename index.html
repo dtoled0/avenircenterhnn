@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avenir Center</title>
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!--Google Borel Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+    <!--CSS Stylesheet-->
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+
+<body>
+  <!--NavBar-->
+  <div id="NavigationBar">
+    <header class="d-flex flex-wrap justify-content-center py-3 my-2">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-4">Avenir Center</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#services" class="nav-link">Servicios</a></li>
+        <li class="nav-item"><a href="#SobreNosotros" class="nav-link">Sobre Nosotros</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Preguntas Frecuentes</a></li>
+      </ul>
+    </header>
+  </div>
+
+  <!--Title/Home-->
+   <section id="title" class="gradient-background">
+    <div class="container col-xxl-8 px-4 pt-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./Images/3874157.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Sé tu mismo, abraza tu bienestar.</h1>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <button type="button" class="btn btn-light btn-lg px-4 me-md-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                        <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+                        <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                      </svg>
+                    ¡Agenda tu cita!
+                  </button>
+                  <button type="button" class="btn btn-outline-light btn-lg px-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                      </svg>
+                    Contáctanos
+                  </button>
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+  <!--Features/Services-->
+   <section id="services">
+    <div class="container px-4 py-5" id="hanging-icons">
+      <h2 class="pb-3">Nuestros Servicios</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="./Images/bandaid.svg" alt="Psicoterapia/Consejería" height="30">
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Psicoterapia/Consejería</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="./Images/compass.svg" alt="Compass" height="30">
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Orientacion Vocacional</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="./Images/people.svg" alt="Charlas/Talleres" height="30">
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Charlas/Talleres</h3>
+            <p>Especial para grupos y empresas que desean invertir y hacer la diferencia con su mejor recurso: Humanos.</p>
+            <a href="#" class="btn btn-outline-dark btn-lg CharlasTalleresBtn">
+              <img src="./Images/envelope.svg" alt="Contáctanos" height="20px">
+              Contáctanos
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <!--About-->
+   <section id="SobreNosotros" class="bg-body-tertiary">
+    <div class="container my-5">
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3  shadow-lg">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h3 class="display-4 fw-bold lh-1 text-body-emphasis">Lic. Maria Jose Funes</h3>
+          <p class="lead">Hola, soy MJ. Me especializo en ofrecer servicios de charlas y talleres, psicoterapia y orientación vocacional.</p>
+          <p class="lead">Creo que todos tenemos el potencial de vivir una vida plena y feliz, y mi objetivo es ayudarte a alcanzar tus metas y objetivos. Ofrezco una amplia gama de servicios para ayudarte a superar los desafíos que enfrentas, tanto personales como profesionales</p>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+            <img class="rounded-lg-3" src="./Images/MJ.jpg" alt="Lic MJ Funes" width="500" height="500">
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <!--Footer-->
+   <section id="Footer">
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-emphasis">©2023 Avenir Center</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="https://instagram.com/avenircenterhn?igshid=NjIwNzIyMDk2Mg==" target="_blank"><img src="./Images/instagram.svg" alt="Instagram" height="24"></a></li>
+        </ul>
+      </footer>
+    </div>
+   </section>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
