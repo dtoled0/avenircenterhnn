@@ -25,9 +25,9 @@
       </a>
 
       <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#services" class="nav-link">Servicios</a></li>
-        <li class="nav-item"><a href="#SobreNosotros" class="nav-link">Sobre Nosotros</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Preguntas Frecuentes</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link  link-dark">Servicios</a></li>
+        <li class="nav-item"><a href="#SobreNosotros" class="nav-link link-dark">Sobre Nosotros</a></li>
+        <li class="nav-item"><a href="FAQ.html" class="nav-link link-dark">Preguntas Frecuentes</a></li>
       </ul>
     </header>
   </div>
@@ -42,18 +42,22 @@
               <div class="col-lg-6">
                 <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Sé tu mismo, abraza tu bienestar.</h1>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                  <button type="button" class="btn btn-light btn-lg px-4 me-md-2">
+                  <button type="button" class="btn btn-light btn-lg px-4 me-md-2" id="botonAgendar">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
                         <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
                         <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
                       </svg>
-                    ¡Agenda tu cita!
+                    <a href="https://calendly.com/avenircenter/sesion-psicoterapia-consejeria" target="_blank" id="linkAgendarCalendly">
+                      <span>¡Agenda tu cita!</span>
+                    </a>
                   </button>
-                  <button type="button" class="btn btn-outline-light btn-lg px-4">
+                  <button type="button" class="btn btn-outline-light btn-lg px-4" id="botonContactanos">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
                         <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
                       </svg>
-                    Contáctanos
+                      <a href="mailto:davidtoledo302@gmail.com" id="linkContactanos">
+                      <span>Contáctanos</span>
+                    </a>
                   </button>
                 </div>
               </div>
@@ -80,7 +84,7 @@
             <img src="./Images/compass.svg" alt="Compass" height="30">
           </div>
           <div>
-            <h3 class="fs-2 text-body-emphasis">Orientacion Vocacional</h3>
+            <h3 class="fs-2 text-body-emphasis">Orientación Vocacional</h3>
             <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
           </div>
         </div>
@@ -92,7 +96,9 @@
             <h3 class="fs-2 text-body-emphasis">Charlas/Talleres</h3>
             <p>Especial para grupos y empresas que desean invertir y hacer la diferencia con su mejor recurso: Humanos.</p>
             <a href="#" class="btn btn-outline-dark btn-lg CharlasTalleresBtn">
-              <img src="./Images/envelope.svg" alt="Contáctanos" height="20px">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="currentColor" class="bi bi-envelope envelope-svg" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+              </svg>
               Contáctanos
             </a>
           </div>
@@ -118,7 +124,7 @@
    </section>
 
    <!--Footer-->
-   <section id="Footer">
+   <section id="footer">
     <div class="container">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
