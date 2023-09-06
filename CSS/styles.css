@@ -61,3 +61,49 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium;
   }
+
+  /*Seccion de Prefuntas Frecuentes*/
+  .container-divider {
+    border-top: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+
+  .container-faqs {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 5%;
+  }
+
+  #article-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article {
+    flex: 1 0 auto;
+  }
+
+  .article-header {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+  .article-info {
+    max-width: 100%;
+  }
+
+  .article-content {
+    line-height: 1.6;
+    margin: 40px 0;
+    word-wrap: break-word;
+}
+
+/*Footer*/
+#footer-faqs {
+  margin-top: 349px;
+}
